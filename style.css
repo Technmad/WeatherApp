@@ -26,12 +26,16 @@
   text-align: center;
 }
 
-.display-card .temp-display {
+.temp {
   margin: 15px;
   font-size: 90px;
   font-weight: bolder;
 }
 
-.display-card .loc-display {
+.city {
   font-size: 20px;
+}
+
+.country {
+  font-size: 15px;
 }
