@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(106, 29, 3);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-card .search input {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.search button {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.display {
+  text-align: center;
+}
+
+.display-card .temp-display {
+  margin: 15px;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.display-card .loc-display {
+  font-size: 20px;
+}
