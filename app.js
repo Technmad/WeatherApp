@@ -23,7 +23,8 @@ function displayData(data) {
 
 function setTemperature(data) {
   document.querySelector(".condition").innerHTML = data.current.condition.text;
-  document.querySelector("img").src = data.current.condition.icon.slice(20);
+  document.querySelector(".weatherlogo img").src =
+    data.current.condition.icon.slice(20);
   document.querySelector(".temp").innerHTML = `${Math.round(
     data.current.temp_c
   )}°C`;
@@ -62,7 +63,8 @@ async function getGif(value) {
   );
 
   response = await result.json();
-  document.querySelector(".gif img").src = response.data.images.original.url;
+  document.querySelector(".gif img").src =
+    response.data.images.fixed_height.url;
 }
 
 searchBttn.addEventListener("click", () => {
@@ -71,3 +73,27 @@ searchBttn.addEventListener("click", () => {
 });
 
 getWeatherInfo(city);
+
+const toogleC = document.querySelector(".settings-metric");
+const toogleF = document.querySelector(".settings-imperial");
+let toogleOn = true;
+
+toogleC.addEventListener("click", (e) => {
+  console.log(e);
+  if (toogleOn == true) return;
+  let degreeC = document.querySelector(".temp").textContent.slice(0, 2);
+  degreeC = ((degreeC - 32) * 5) / 9;
+  document.querySelector(".temp").textContent = Math.round(degreeC) + "°C";
+  toogleOn = true;
+});
+
+toogleF.addEventListener("click", (e) => {
+  console.log(e);
+  if (toogleOn == false) return;
+  let degreeF = document.querySelector(".temp").textContent.slice(0, 2);
+  // console.log(degreeF);
+  degreeF = (degreeF * 9) / 5 + 32;
+  // console.log(degreeF);
+  document.querySelector(".temp").textContent = Math.round(degreeF) + "°F";
+  toogleOn = false;
+});
