@@ -107,7 +107,7 @@ You will need `Node.js` and `npm` installed globally on your machine.
 
 ## Authors
 
-[Technmad](<(https://github.com/Technmad)>) - [LinkedIn](https://linkedin.com/in/technmad)
+[Technmad](https://github.com/Technmad) - [LinkedIn](https://linkedin.com/in/technmad)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
