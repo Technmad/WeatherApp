@@ -12,6 +12,37 @@
   justify-content: center;
 }
 
+.display {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.display-second {
+  width: 50%;
+  display: flex;
+  height: 300px;
+  background: #db0cf3;
+  flex-direction: column;
+}
+
+.r1 {
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  height: 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.r2 {
+  font-size: 20px;
+  display: flex;
+  height: 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .search-card .search input {
   font-size: 20px;
   padding: 10px;
@@ -20,10 +51,6 @@
 .search button {
   font-size: 15px;
   padding: 10px;
-}
-
-.display {
-  text-align: center;
 }
 
 .temp {
