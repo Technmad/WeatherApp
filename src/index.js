@@ -24,7 +24,7 @@ function displayData(data) {
 function setTemperature(data) {
   document.querySelector(".condition").innerHTML = data.current.condition.text;
   document.querySelector(".weatherlogo img").src =
-    data.current.condition.icon.slice(20);
+    "." + data.current.condition.icon.slice(20);
   document.querySelector(".temp").innerHTML = `${Math.round(
     data.current.temp_c
   )}°C`;
