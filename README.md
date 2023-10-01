@@ -7,7 +7,7 @@
 <h3 align="center">Weather app</h3>
 
   <p align="center">
-    Weather application used to show forecast from OpenWeather API.
+    Weather application used to show forecast from Weatherapi API.
     <br />
     <a href="https://artis-dev.github.io/weather-app/"><strong>View Demo</strong></a>
   </p>
@@ -60,7 +60,7 @@ You will need `Node.js` and `npm` installed globally on your machine.
 
 ### Installation
 
-1. Get a free API key at [https://openweathermap.com](https://openweathermap.com)
+1. Get a free API key at [https://www.weatherapi.com/](https://www.weatherapi.com/)
 2. Clone the repo
    ```sh
    git clone https://github.com/Technmad/WeatherApp.git
