@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherInfo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="search-card">
+        <div class="search">
+          <input type="text" placeholder="search locations" />
+          <button><img src="./magnifying-glass.png" /></button>
+        </div>
+      </div>
+      <div class="settings">
+        <button class="settings-metric">°C</button>
+        <button class="settings-imperial">°F</button>
+      </div>
+    </section>
+    <section class="display">
+      <div class="display-card">
+        <div class="city">London</div>
+        <div class="country">UK</div>
+        <div class="temp">22°C</div>
+        <div class="weatherlogo">
+          <div class="condition">Sunny</div>
+          <img src="/" />
+        </div>
+      </div>
+
+      <div class="display-second">
+        <div class="r1">
+          <div class="sunrise">
+            <p>Sunrise</p>
+            <h5></h5>
+          </div>
+          <div class="sunset">
+            <p>Sunset</p>
+            <h5></h5>
+          </div>
+          <div class="maxtemp">
+            <p>High</p>
+            <h5></h5>
+          </div>
+          <div class="mintemp">
+            <p>Low</p>
+            <h5></h5>
+          </div>
+        </div>
+
+        <div class="r2">
+          <div class="maxwind">
+            <p>Wind</p>
+            <h5></h5>
+          </div>
+          <div class="humidity">
+            <p>Humidity</p>
+            <h5></h5>
+          </div>
+          <div class="precipitation">
+            <p>Rain</p>
+            <h5></h5>
+          </div>
+          <div class="uv">
+            <p>UV</p>
+            <h5></h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gif">
+      <img src="/" />
+    </section>
+    <section class="footer"></section>
+    <script src="main.js"></script>
+  </body>
+</html>
