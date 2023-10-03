@@ -11,11 +11,9 @@
     <br />
     <a href="https://technmad.github.io/WeatherApp/"><strong>View Demo</strong></a>
     ·
-    <a href="https://technmad.github.io/WeatherApp/issues" target="_blank">Report Bug</a>
+    <a href="https://technmad.github.io/WeatherApp/issues" target="_blank"><b>Report Bug</b></a>
     ·
-    <a href="https://technmad.github.io/WeatherApp/issues" target="_blank">Request Feature</a>
-  </p>
-
+    <a href="https://technmad.github.io/WeatherApp/issues" target="_blank"><b>Request Feature</b> </a>
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
