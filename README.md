@@ -10,6 +10,10 @@
     Weather application used to show forecast from Weatherapi API.
     <br />
     <a href="https://technmad.github.io/WeatherApp/"><strong>View Demo</strong></a>
+    ·
+    <a href="https://technmad.github.io/WeatherApp/issues" target="_blank">Report Bug</a>
+    ·
+    <a href="https://technmad.github.io/WeatherApp/issues" target="_blank">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
